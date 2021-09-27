@@ -10,6 +10,17 @@ namespace DXWebApplication1.SpillGlass
     {
         public PurchaseOrder()
         {
+            this.InvDocID.Description = "InvDocID";
+            this.InvDocID.Name = "InvDocID";
+            this.InvDocID.Type = typeof(int);
+            this.InvDocID.ValueInfo = "38722";
+            dynamicListLookUpSettings1.DataMember = "RptGetPODetails";
+            dynamicListLookUpSettings1.DataSource = this.PurchaseOrderDB;
+            dynamicListLookUpSettings1.DisplayMember = "InvDocID";
+            dynamicListLookUpSettings1.FilterString = null;
+            dynamicListLookUpSettings1.SortMember = null;
+            dynamicListLookUpSettings1.ValueMember = "InvDocID";
+            this.InvDocID.ValueSourceSettings = dynamicListLookUpSettings1;
             InitializeComponent();
         }
 

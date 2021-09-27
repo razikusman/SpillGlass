@@ -1,4 +1,5 @@
 ﻿using DevExpress.XtraReports.UI;
+using Microsoft.Build.Framework.XamlTypes;
 using System;
 using System.Collections;
 using System.ComponentModel;
@@ -10,8 +11,8 @@ namespace DXWebApplication1.SpillGlass
     {
         public PurchaseOrder()
         {
+            
             InitializeComponent();
         }
-
     }
 }

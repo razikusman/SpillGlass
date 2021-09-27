@@ -192,7 +192,7 @@ namespace DXWebApplication1.SpillGlass
             // 
             // TopMargin
             // 
-            this.TopMargin.HeightF = 110.7456F;
+            this.TopMargin.HeightF = 111F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
@@ -286,8 +286,7 @@ namespace DXWebApplication1.SpillGlass
             // 
             // xrTableCell48
             // 
-            this.xrTableCell48.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTableCell48.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
             this.xrTableCell48.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[LineTotalExcl]")});
             this.xrTableCell48.Multiline = true;
@@ -484,7 +483,7 @@ namespace DXWebApplication1.SpillGlass
             this.InvDocID.Description = "InvDocID";
             this.InvDocID.Name = "InvDocID";
             this.InvDocID.Type = typeof(int);
-            this.InvDocID.ValueInfo = "38722";
+            this.InvDocID.ValueInfo = "0";
             dynamicListLookUpSettings1.DataMember = "RptGetPODetails";
             dynamicListLookUpSettings1.DataSource = this.PurchaseOrderDB;
             dynamicListLookUpSettings1.DisplayMember = "InvDocID";
@@ -492,6 +491,7 @@ namespace DXWebApplication1.SpillGlass
             dynamicListLookUpSettings1.SortMember = null;
             dynamicListLookUpSettings1.ValueMember = "InvDocID";
             this.InvDocID.ValueSourceSettings = dynamicListLookUpSettings1;
+            this.InvDocID.Visible = false;
             // 
             // GroupFooter1
             // 
@@ -1042,31 +1042,31 @@ namespace DXWebApplication1.SpillGlass
             this.xrRichText3,
             this.xrRichText2,
             this.xrRichText1});
-            this.GroupFooter2.HeightF = 180.263F;
+            this.GroupFooter2.HeightF = 212.4153F;
             this.GroupFooter2.Name = "GroupFooter2";
             // 
             // xrLine4
             // 
             this.xrLine4.LineDirection = DevExpress.XtraReports.UI.LineDirection.Vertical;
-            this.xrLine4.LocationFloat = new DevExpress.Utils.PointFloat(996.6163F, 1.097824F);
+            this.xrLine4.LocationFloat = new DevExpress.Utils.PointFloat(986.1631F, 8.778809F);
             this.xrLine4.Name = "xrLine4";
             this.xrLine4.SizeF = new System.Drawing.SizeF(9.216064F, 114.6257F);
             // 
             // xrLine3
             // 
-            this.xrLine3.LocationFloat = new DevExpress.Utils.PointFloat(906.4597F, 103.2675F);
+            this.xrLine3.LocationFloat = new DevExpress.Utils.PointFloat(896.0065F, 112.0464F);
             this.xrLine3.Name = "xrLine3";
-            this.xrLine3.SizeF = new System.Drawing.SizeF(202.457F, 2.083336F);
+            this.xrLine3.SizeF = new System.Drawing.SizeF(214.8589F, 2F);
             // 
             // xrLine2
             // 
-            this.xrLine2.LocationFloat = new DevExpress.Utils.PointFloat(906.4597F, 73.55256F);
+            this.xrLine2.LocationFloat = new DevExpress.Utils.PointFloat(896.0065F, 82.33143F);
             this.xrLine2.Name = "xrLine2";
             this.xrLine2.SizeF = new System.Drawing.SizeF(202.457F, 2.083336F);
             // 
             // xrLine1
             // 
-            this.xrLine1.LocationFloat = new DevExpress.Utils.PointFloat(906.4597F, 36.64606F);
+            this.xrLine1.LocationFloat = new DevExpress.Utils.PointFloat(896.0065F, 45.42497F);
             this.xrLine1.Name = "xrLine1";
             this.xrLine1.SizeF = new System.Drawing.SizeF(201.9596F, 2.038044F);
             // 
@@ -1075,7 +1075,7 @@ namespace DXWebApplication1.SpillGlass
             this.xrRichText16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Rtf", "[TotIncl]")});
             this.xrRichText16.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrRichText16.LocationFloat = new DevExpress.Utils.PointFloat(1014.602F, 75.63588F);
+            this.xrRichText16.LocationFloat = new DevExpress.Utils.PointFloat(1003.651F, 84.41475F);
             this.xrRichText16.Name = "xrRichText16";
             this.xrRichText16.SerializableRtfString = resources.GetString("xrRichText16.SerializableRtfString");
             this.xrRichText16.SizeF = new System.Drawing.SizeF(94.31494F, 16.2734F);
@@ -1086,7 +1086,7 @@ namespace DXWebApplication1.SpillGlass
             this.xrRichText17.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Rtf", "[TotTax]")});
             this.xrRichText17.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrRichText17.LocationFloat = new DevExpress.Utils.PointFloat(1014.602F, 45.92095F);
+            this.xrRichText17.LocationFloat = new DevExpress.Utils.PointFloat(1003.651F, 54.69985F);
             this.xrRichText17.Name = "xrRichText17";
             this.xrRichText17.SerializableRtfString = resources.GetString("xrRichText17.SerializableRtfString");
             this.xrRichText17.SizeF = new System.Drawing.SizeF(94.31494F, 18.35672F);
@@ -1097,7 +1097,7 @@ namespace DXWebApplication1.SpillGlass
             this.xrRichText18.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Rtf", "[TotExcl]")});
             this.xrRichText18.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrRichText18.LocationFloat = new DevExpress.Utils.PointFloat(1014.602F, 9.014499F);
+            this.xrRichText18.LocationFloat = new DevExpress.Utils.PointFloat(1003.651F, 17.79339F);
             this.xrRichText18.Name = "xrRichText18";
             this.xrRichText18.SerializableRtfString = resources.GetString("xrRichText18.SerializableRtfString");
             this.xrRichText18.SizeF = new System.Drawing.SizeF(94.31494F, 17.03376F);
@@ -1106,7 +1106,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText15
             // 
             this.xrRichText15.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrRichText15.LocationFloat = new DevExpress.Utils.PointFloat(920.9639F, 75.63588F);
+            this.xrRichText15.LocationFloat = new DevExpress.Utils.PointFloat(910.5107F, 84.41475F);
             this.xrRichText15.Name = "xrRichText15";
             this.xrRichText15.SerializableRtfString = resources.GetString("xrRichText15.SerializableRtfString");
             this.xrRichText15.SizeF = new System.Drawing.SizeF(75.6524F, 16.2734F);
@@ -1115,7 +1115,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText14
             // 
             this.xrRichText14.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrRichText14.LocationFloat = new DevExpress.Utils.PointFloat(920.9639F, 45.92095F);
+            this.xrRichText14.LocationFloat = new DevExpress.Utils.PointFloat(910.5107F, 54.69985F);
             this.xrRichText14.Name = "xrRichText14";
             this.xrRichText14.SerializableRtfString = resources.GetString("xrRichText14.SerializableRtfString");
             this.xrRichText14.SizeF = new System.Drawing.SizeF(75.6524F, 18.35673F);
@@ -1124,7 +1124,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText13
             // 
             this.xrRichText13.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrRichText13.LocationFloat = new DevExpress.Utils.PointFloat(920.9639F, 9.014499F);
+            this.xrRichText13.LocationFloat = new DevExpress.Utils.PointFloat(910.5107F, 17.79339F);
             this.xrRichText13.Name = "xrRichText13";
             this.xrRichText13.SerializableRtfString = resources.GetString("xrRichText13.SerializableRtfString");
             this.xrRichText13.SizeF = new System.Drawing.SizeF(75.6524F, 17.03376F);
@@ -1133,7 +1133,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText12
             // 
             this.xrRichText12.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrRichText12.LocationFloat = new DevExpress.Utils.PointFloat(540.6529F, 22.45597F);
+            this.xrRichText12.LocationFloat = new DevExpress.Utils.PointFloat(544.6852F, 29.15147F);
             this.xrRichText12.Name = "xrRichText12";
             this.xrRichText12.SerializableRtfString = resources.GetString("xrRichText12.SerializableRtfString");
             this.xrRichText12.SizeF = new System.Drawing.SizeF(200.0001F, 27.63159F);
@@ -1142,7 +1142,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText11
             // 
             this.xrRichText11.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText11.LocationFloat = new DevExpress.Utils.PointFloat(540.6529F, 57.32438F);
+            this.xrRichText11.LocationFloat = new DevExpress.Utils.PointFloat(544.6852F, 64.0199F);
             this.xrRichText11.Name = "xrRichText11";
             this.xrRichText11.SerializableRtfString = resources.GetString("xrRichText11.SerializableRtfString");
             this.xrRichText11.SizeF = new System.Drawing.SizeF(332.4775F, 104.386F);
@@ -1151,7 +1151,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText10
             // 
             this.xrRichText10.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText10.LocationFloat = new DevExpress.Utils.PointFloat(206.9922F, 134.0788F);
+            this.xrRichText10.LocationFloat = new DevExpress.Utils.PointFloat(211.0245F, 140.7743F);
             this.xrRichText10.Name = "xrRichText10";
             this.xrRichText10.SerializableRtfString = resources.GetString("xrRichText10.SerializableRtfString");
             this.xrRichText10.SizeF = new System.Drawing.SizeF(291.8075F, 27.63156F);
@@ -1160,7 +1160,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText9
             // 
             this.xrRichText9.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText9.LocationFloat = new DevExpress.Utils.PointFloat(206.9922F, 106.4472F);
+            this.xrRichText9.LocationFloat = new DevExpress.Utils.PointFloat(211.0245F, 113.1427F);
             this.xrRichText9.Name = "xrRichText9";
             this.xrRichText9.SerializableRtfString = resources.GetString("xrRichText9.SerializableRtfString");
             this.xrRichText9.SizeF = new System.Drawing.SizeF(291.8075F, 27.63161F);
@@ -1169,7 +1169,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText8
             // 
             this.xrRichText8.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText8.LocationFloat = new DevExpress.Utils.PointFloat(208.0887F, 77.71925F);
+            this.xrRichText8.LocationFloat = new DevExpress.Utils.PointFloat(212.121F, 84.41475F);
             this.xrRichText8.Name = "xrRichText8";
             this.xrRichText8.SerializableRtfString = resources.GetString("xrRichText8.SerializableRtfString");
             this.xrRichText8.SizeF = new System.Drawing.SizeF(290.711F, 27.63159F);
@@ -1178,7 +1178,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText7
             // 
             this.xrRichText7.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText7.LocationFloat = new DevExpress.Utils.PointFloat(206.9922F, 50.08761F);
+            this.xrRichText7.LocationFloat = new DevExpress.Utils.PointFloat(211.0245F, 56.78308F);
             this.xrRichText7.Name = "xrRichText7";
             this.xrRichText7.SerializableRtfString = resources.GetString("xrRichText7.SerializableRtfString");
             this.xrRichText7.SizeF = new System.Drawing.SizeF(291.8075F, 27.63162F);
@@ -1187,7 +1187,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText6
             // 
             this.xrRichText6.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText6.LocationFloat = new DevExpress.Utils.PointFloat(208.0887F, 22.45604F);
+            this.xrRichText6.LocationFloat = new DevExpress.Utils.PointFloat(212.121F, 29.15155F);
             this.xrRichText6.Name = "xrRichText6";
             this.xrRichText6.SerializableRtfString = resources.GetString("xrRichText6.SerializableRtfString");
             this.xrRichText6.SizeF = new System.Drawing.SizeF(290.711F, 27.63159F);
@@ -1196,7 +1196,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText5
             // 
             this.xrRichText5.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText5.LocationFloat = new DevExpress.Utils.PointFloat(23.01358F, 134.0788F);
+            this.xrRichText5.LocationFloat = new DevExpress.Utils.PointFloat(27.04583F, 140.7743F);
             this.xrRichText5.Name = "xrRichText5";
             this.xrRichText5.SerializableRtfString = resources.GetString("xrRichText5.SerializableRtfString");
             this.xrRichText5.SizeF = new System.Drawing.SizeF(167.7083F, 27.63158F);
@@ -1205,7 +1205,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText4
             // 
             this.xrRichText4.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText4.LocationFloat = new DevExpress.Utils.PointFloat(23.01358F, 106.4472F);
+            this.xrRichText4.LocationFloat = new DevExpress.Utils.PointFloat(27.04583F, 113.1427F);
             this.xrRichText4.Name = "xrRichText4";
             this.xrRichText4.SerializableRtfString = resources.GetString("xrRichText4.SerializableRtfString");
             this.xrRichText4.SizeF = new System.Drawing.SizeF(167.7083F, 27.63161F);
@@ -1214,7 +1214,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText3
             // 
             this.xrRichText3.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText3.LocationFloat = new DevExpress.Utils.PointFloat(23.01358F, 77.71925F);
+            this.xrRichText3.LocationFloat = new DevExpress.Utils.PointFloat(27.04583F, 84.41475F);
             this.xrRichText3.Name = "xrRichText3";
             this.xrRichText3.SerializableRtfString = resources.GetString("xrRichText3.SerializableRtfString");
             this.xrRichText3.SizeF = new System.Drawing.SizeF(167.7083F, 27.6316F);
@@ -1223,7 +1223,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText2
             // 
             this.xrRichText2.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText2.LocationFloat = new DevExpress.Utils.PointFloat(23.01358F, 50.08761F);
+            this.xrRichText2.LocationFloat = new DevExpress.Utils.PointFloat(27.04583F, 56.78308F);
             this.xrRichText2.Name = "xrRichText2";
             this.xrRichText2.SerializableRtfString = resources.GetString("xrRichText2.SerializableRtfString");
             this.xrRichText2.SizeF = new System.Drawing.SizeF(167.7083F, 27.6316F);
@@ -1232,7 +1232,7 @@ namespace DXWebApplication1.SpillGlass
             // xrRichText1
             // 
             this.xrRichText1.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(23.01358F, 22.45604F);
+            this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(27.04583F, 29.15155F);
             this.xrRichText1.Name = "xrRichText1";
             this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
             this.xrRichText1.SizeF = new System.Drawing.SizeF(167.7083F, 27.63159F);
@@ -1282,31 +1282,31 @@ namespace DXWebApplication1.SpillGlass
             // 
             this.xrCrossBandBox5.AnchorVertical = ((DevExpress.XtraReports.UI.VerticalAnchorStyles)((DevExpress.XtraReports.UI.VerticalAnchorStyles.Top | DevExpress.XtraReports.UI.VerticalAnchorStyles.Bottom)));
             this.xrCrossBandBox5.EndBand = this.GroupFooter2;
-            this.xrCrossBandBox5.EndPointFloat = new DevExpress.Utils.PointFloat(0F, 180.263F);
+            this.xrCrossBandBox5.EndPointFloat = new DevExpress.Utils.PointFloat(1.949115F, 176.3147F);
             this.xrCrossBandBox5.Name = "xrCrossBandBox5";
             this.xrCrossBandBox5.StartBand = this.GroupFooter2;
-            this.xrCrossBandBox5.StartPointFloat = new DevExpress.Utils.PointFloat(0F, 0.08762193F);
-            this.xrCrossBandBox5.WidthF = 531.8168F;
+            this.xrCrossBandBox5.StartPointFloat = new DevExpress.Utils.PointFloat(1.949115F, 8.778748F);
+            this.xrCrossBandBox5.WidthF = 532.3824F;
             // 
             // xrCrossBandBox6
             // 
             this.xrCrossBandBox6.AnchorVertical = ((DevExpress.XtraReports.UI.VerticalAnchorStyles)((DevExpress.XtraReports.UI.VerticalAnchorStyles.Top | DevExpress.XtraReports.UI.VerticalAnchorStyles.Bottom)));
             this.xrCrossBandBox6.EndBand = this.GroupFooter2;
-            this.xrCrossBandBox6.EndPointFloat = new DevExpress.Utils.PointFloat(530.299F, 180.263F);
+            this.xrCrossBandBox6.EndPointFloat = new DevExpress.Utils.PointFloat(531.6824F, 176.3147F);
             this.xrCrossBandBox6.Name = "xrCrossBandBox6";
             this.xrCrossBandBox6.StartBand = this.GroupFooter2;
-            this.xrCrossBandBox6.StartPointFloat = new DevExpress.Utils.PointFloat(530.299F, 0.08762193F);
-            this.xrCrossBandBox6.WidthF = 376.1608F;
+            this.xrCrossBandBox6.StartPointFloat = new DevExpress.Utils.PointFloat(531.6824F, 8.778768F);
+            this.xrCrossBandBox6.WidthF = 362.0986F;
             // 
             // xrCrossBandBox7
             // 
             this.xrCrossBandBox7.AnchorVertical = ((DevExpress.XtraReports.UI.VerticalAnchorStyles)((DevExpress.XtraReports.UI.VerticalAnchorStyles.Top | DevExpress.XtraReports.UI.VerticalAnchorStyles.Bottom)));
             this.xrCrossBandBox7.EndBand = this.GroupFooter2;
-            this.xrCrossBandBox7.EndPointFloat = new DevExpress.Utils.PointFloat(906.4597F, 180.1754F);
+            this.xrCrossBandBox7.EndPointFloat = new DevExpress.Utils.PointFloat(893.7809F, 176.2272F);
             this.xrCrossBandBox7.Name = "xrCrossBandBox7";
             this.xrCrossBandBox7.StartBand = this.GroupFooter2;
-            this.xrCrossBandBox7.StartPointFloat = new DevExpress.Utils.PointFloat(906.4597F, 0F);
-            this.xrCrossBandBox7.WidthF = 204.5403F;
+            this.xrCrossBandBox7.StartPointFloat = new DevExpress.Utils.PointFloat(893.7809F, 8.691071F);
+            this.xrCrossBandBox7.WidthF = 219.168F;
             // 
             // PurchaseOrder
             // 
@@ -1333,7 +1333,7 @@ namespace DXWebApplication1.SpillGlass
             this.FilterString = "[InvDocID] = ?InvDocID";
             this.Font = new System.Drawing.Font("Arial", 9.75F);
             this.Landscape = true;
-            this.Margins = new System.Drawing.Printing.Margins(34, 24, 111, 100);
+            this.Margins = new System.Drawing.Printing.Margins(34, 22, 111, 100);
             this.PageHeight = 827;
             this.PageWidth = 1169;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
@@ -1367,7 +1367,7 @@ namespace DXWebApplication1.SpillGlass
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
-
+        
         #endregion
 
         private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
